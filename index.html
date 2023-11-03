@@ -27,6 +27,14 @@ img.content {
   margin-top: 12.5em;
   padding: 0 0 0 3.75em;
 }
+img {
+  pointer-events: none;
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-touch-callout:none;
+  -moz-user-select:none;
+  user-select:none;
+}
   </style>
  </head>
  <body>
@@ -35,10 +43,12 @@ img.content {
     <p><font size="5em" color="#808080">時空電気鉄道</font></p>
     <p><font size="2em" color="#808080">公式サイト</font></p>
     </center>
-    <div class="content">
+    <div class="content" onselectstart="return false;" onmousedown="return false;">
      <img src="./RouteMap/TokidenTH.png">
      <br>
      <img class="content" src="./RouteMap/TokidenTM.png">
+     <br>
+     <img class="content" src="./RouteMap/TokidenTR.png">
     </div>
    </div>
  </body>
