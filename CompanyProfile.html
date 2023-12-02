@@ -1,0 +1,59 @@
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width">
+  <meta content="時空電気鉄道の公式サイトです。" name="description">
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>時空電気鉄道 公式サイト - 会社概要</title>
+  <style>
+div.animation_box {
+  padding: 50px;
+  animation: fadeIn 1.5s ease 0s 1 normal backwards;
+}
+ 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.cp_link {
+  text-decoration: none;
+  padding: 0.1em 0.3em;
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  color: #808080;
+}
+.cp_link::after {
+  position: absolute;
+  bottom: .3em;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #808080;
+  opacity: 0;
+  transition: .3s;
+}
+.cp_link:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+  </style>
+ </head>
+ <body>
+   <div class="animation_box">
+    <a class="cp_link" href="#" onclick="history.back()">戻る</a>
+    <center>
+    <p><font size="5em" color="#808080">時空電気鉄道</font></p>
+    <p><font size="2em" color="#808080">公式サイト</font></p>
+    <br>
+    <p><font size="2em" color="#808080">時電が明日を創ります。</font></p>
+    </center>
+   </div>
+ </body>
+</html>
